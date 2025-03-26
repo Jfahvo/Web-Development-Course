@@ -45,7 +45,7 @@ const App = () => {
   }
 
   const deletePerson = id => {
-    const url = `http://localhost:3001/persons/${id}`
+    const url = `http://localhost:3001/api/persons/${id}`
     const person = persons.find(p => p.id === id)
 
     if (confirm(`Delete ${person.name}?`)) {
