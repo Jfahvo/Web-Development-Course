@@ -1,0 +1,19 @@
+.added {
+    color: rgb(0, 83, 0);
+    background: rgb(176, 253, 176);
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.deleted {
+    color: rgb(83, 0, 0);
+    background: rgb(248, 93, 93);
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
